@@ -2,7 +2,7 @@
 
 echo "Deploying OneOps Admin "
 
-gem install  $OO_HOME/dist/oneops/dist/oneops-admin-1.0.0.gem --no-ri --no-rdoc
+gem install  $OO_HOME/dist/oneops/dist/oneops-admin-1.0.0.gem --no-ri --no-rdoc -f
 
 mkdir -p /opt/oneops-admin
 cd /opt/oneops-admin
