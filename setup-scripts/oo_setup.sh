@@ -13,7 +13,7 @@ if [ -d "$BUILD_BASE/dev-tools" ]; then
 else
   echo "doing dev tools git clone"
   cd $BUILD_BASE
-  git clone "$GITHUB_URL/dev-tools.git"
+  git clone "https://github.com/carlospuga/dev-tools.git"
 fi
 sleep 2
 
